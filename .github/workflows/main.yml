@@ -20,5 +20,5 @@ jobs:
       run: ./caidat.ps1
     - name: Khởi động VPS
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
-    - name: VPS đang chạy. Thời hạn còn lại:
+    - name: VPS đang chạy
       run: ./time.ps1
