@@ -1,4 +1,4 @@
-$v = 360
+$v = 1440
 qb {
 Jevgr-Ubfg $v
 Fyrrc 60
