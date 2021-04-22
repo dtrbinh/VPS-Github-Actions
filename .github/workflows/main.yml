@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       authcode:
-        description: 'Nhập code'
+        description: 'Nhập code remote'
         required: true
       pincode:
         description: 'Nhập mã pin tuỳ ý (6 số)'
