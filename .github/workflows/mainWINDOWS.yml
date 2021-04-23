@@ -10,11 +10,11 @@ on:
       pincode:
         description: 'Tạo password cho VPS (6 số)'
         required: true
+        
   
 jobs:
-
   build:
-    runs-on: window-lastest
+    runs-on: window-lastest,[self-hosted]
     timeout-minutes: 31536000
     
     steps:
