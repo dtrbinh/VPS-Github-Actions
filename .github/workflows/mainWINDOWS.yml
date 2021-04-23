@@ -1,8 +1,8 @@
 name: VPS cua binhdeptrai
 
 on: 
-  runs-on: [self-hosted]
-   CATCH-ME:
+
+  workflow_dispatch:
     inputs:
       authcode:
         description: 'Nhập code remote'
@@ -12,8 +12,9 @@ on:
         required: true
   
 jobs:
+
   build:
-    runs-on: windows-latest
+    runs-on: [self-hosted]
     timeout-minutes: 31536000
     
     steps:
