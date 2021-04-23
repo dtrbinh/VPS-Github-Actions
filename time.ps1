@@ -4,4 +4,3 @@ Write-Host $i
 Sleep 86400 
 $i--
 } while ($i -gt 0)
-© 2021 GitHub, Inc.
