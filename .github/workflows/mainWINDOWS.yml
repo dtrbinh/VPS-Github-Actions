@@ -1,7 +1,6 @@
 name: VPS cua binhdeptrai
 
 on: 
-
   workflow_dispatch:
     inputs:
       authcode:
