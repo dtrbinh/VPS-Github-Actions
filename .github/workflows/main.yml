@@ -7,7 +7,7 @@ on:
         description: 'Nhập code remote'
         required: true
       pincode:
-        description: 'Nhập mã pin tuỳ ý (6 số)'
+        description: 'Tạo password cho VPS (6 số)'
         required: true
   
 jobs:
