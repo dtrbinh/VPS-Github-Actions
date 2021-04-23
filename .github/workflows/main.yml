@@ -1,4 +1,4 @@
-name: VPS 1 năm
+name: VPS1Year
 
 on: 
   workflow_dispatch:
@@ -13,7 +13,7 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-    
+    timeout-minutes: 4800
     steps:
     - uses: actions/checkout@v2
     - name: Initializing Setup
