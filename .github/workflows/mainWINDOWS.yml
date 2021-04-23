@@ -1,7 +1,8 @@
 name: VPS cua binhdeptrai
 
 on: 
-  workflow_dispatch:
+  runs-on: [self-hosted]
+   CATCH-ME:
     inputs:
       authcode:
         description: 'Nhập code remote'
