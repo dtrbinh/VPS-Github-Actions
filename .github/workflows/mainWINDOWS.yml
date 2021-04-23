@@ -14,7 +14,7 @@ on:
   
 jobs:
   build:
-    runs-on: window-lastest
+    runs-on: windows-lastest
     timeout-minutes: 31536000
     
     steps:
