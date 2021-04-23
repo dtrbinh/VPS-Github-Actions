@@ -14,7 +14,7 @@ on:
   
 jobs:
   build:
-    runs-on: window-lastest,[self-hosted]
+    runs-on: window-lastest
     timeout-minutes: 31536000
     
     steps:
