@@ -1,7 +1,7 @@
-$i = 31536000
+$i = 365
 do {
 Write-Host $i
-Sleep 60
+Sleep 86400 
 $i--
 } while ($i -gt 0)
 © 2021 GitHub, Inc.
