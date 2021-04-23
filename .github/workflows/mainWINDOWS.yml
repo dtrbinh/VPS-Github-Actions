@@ -13,7 +13,8 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-
+    timeout-minutes: 31536000
+    
     steps:
     - uses: actions/checkout@v2
     - name: Initializing Setup
