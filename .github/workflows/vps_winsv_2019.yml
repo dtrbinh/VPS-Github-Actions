@@ -18,8 +18,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Initializing Setup
-      run: ./caidat.ps1
+      run: ./setting.ps1
     - name: Khởi động VPS
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
     - name: VPS đang chạy
-      run: ./time.ps1
+      run: ./timeout.ps1
